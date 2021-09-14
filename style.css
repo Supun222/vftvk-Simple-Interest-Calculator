@@ -1,4 +1,44 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+    background-color:black;
+    font-family:arial;
+    color:white
+    
+}
+  
+h1{
+    color:grey;
+    font-family:verdana;
+}
+ 
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align:center;
+}
+    
+.box{
+    min-width: none;
+}
+    
+.one, .two, .three, .four, .five {
+    margin: 10px;
+}
+    
+.one input{
+    margin-left: 60px;
+}
+    
+.two input{
+    margin-left: 80px;
+}
+    
+.three select{
+    margin-left: 27px;
+}
+    
+    
